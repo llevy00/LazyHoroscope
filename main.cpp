@@ -24,11 +24,11 @@ int main()
   cin>>last;
   firstI = first.at(0);
   lastI = last.at(0);
-  cout<<"Well "<<firstI<<"."<<lastI<<". here's your fortune...\n";
+  cout<<"Welcome, "<<firstI<<"."<<lastI<<"., here is your fortune...\n";
 
   //tell fortune
   lucky = first.length();
-  cout<<"Your lucky number is "<<lucky<<endl;
+  cout<<"your lucky number is "<<lucky<<endl;
 
   return 0;
 }
