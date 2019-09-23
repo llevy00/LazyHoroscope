@@ -14,7 +14,8 @@ int main()
   string first = "";
   string last = "";
   string firstI = "";
-  string lastI = "";
+  string lastI = "" ;
+  int lucky = 0;
 
   //get user input
   cout<<"What is your first name?\n";
@@ -26,7 +27,8 @@ int main()
   cout<<"Well "<<firstI<<"."<<lastI<<". here's your fortune...\n";
 
   //tell fortune
-  
+  lucky = first.length();
+  cout<<"Your lucky number is "<<lucky<<endl;
 
   return 0;
 }
