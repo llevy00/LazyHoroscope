@@ -38,7 +38,7 @@ int main()
   }
   else if(firstI == 'A' || firstI == 'E' || firstI == 'I' || firstI == 'O' || firstI == 'U')
   {
-    cout<<"you are destined to be famous."<<endl;
+    cout<<"you are destined to be famous!"<<endl;
   }
   else
   {
@@ -50,7 +50,7 @@ int main()
 
   if(lastL == 'a' || lastL == 'e' || lastL == 'i' || lastL == 'o' || lastL == 'u')
   {
-    cout<<"you have already met your true love"<<endl;
+    cout<<"you have already met your true love."<<endl;
     cout<<"have a good day!"<<endl;
   }
   else
