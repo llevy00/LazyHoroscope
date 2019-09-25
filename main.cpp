@@ -13,9 +13,11 @@ int main()
   //declare variables
   string first = "";
   string last = "";
-  string firstI = "";
-  string lastI = "" ;
+  char firstI = ' ';
+  char lastI = ' ';
+  char lastL = ' ';
   int lucky = 0;
+  int lastN = 0;
 
   //get user input
   cout<<"What is your first name?\n";
@@ -29,6 +31,32 @@ int main()
   //tell fortune
   lucky = first.length();
   cout<<"your lucky number is "<<lucky<<endl;
+
+  if(firstI == 'a' || firstI == 'e' || firstI == 'i' || firstI == 'o' || firstI == 'u' )
+  {
+    cout<<"you are destined to be famous."<<endl;
+  }
+  else if(firstI == 'A' || firstI == 'E' || firstI == 'I' || firstI == 'O' || firstI == 'U')
+  {
+    cout<<"you are destined to be famous."<<endl;
+  }
+  else
+  {
+    cout<<"you should keep a low profile."<<endl;
+  }
+
+  lastN = last.length();
+  lastL = last.at(lastN-1);
+
+  if(lastL == 'a' || lastL == 'e' || lastL == 'i' || lastL == 'o' || lastL == 'u')
+  {
+    cout<<"you have already met your true love"<<endl;
+    cout<<"have a good day!"<<endl;
+  }
+  else
+  {
+  cout<<"have a good day!"<<endl;
+  }
 
   return 0;
 }
